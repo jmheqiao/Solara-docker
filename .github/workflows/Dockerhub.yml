@@ -52,3 +52,4 @@ jobs:
           tags: |
             ${{ secrets.DOCKER_HUB_USERNAME }}/solara-music:${{ github.event.release.tag_name }}
             ${{ secrets.DOCKER_HUB_USERNAME }}/solara-music:latest
+
